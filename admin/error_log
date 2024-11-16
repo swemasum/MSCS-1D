@@ -1,0 +1,45 @@
+[07-Oct-2021 06:48:45 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[15-Oct-2021 11:25:21 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[10-Nov-2021 05:13:47 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[15-Nov-2021 03:34:25 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[20-Nov-2021 11:35:57 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[20-Nov-2021 11:36:22 America/New_York] PHP Notice:  Undefined variable: sname in /home/masurwys/public_html/admin/view_scientist_info.php on line 123
+[20-Nov-2021 11:37:29 America/New_York] PHP Warning:  unlink(scientist_image/1633097888-2278-Apu.jpg): No such file or directory in /home/masurwys/public_html/admin/edit_scientist_info.php on line 42
+[20-Nov-2021 11:37:39 America/New_York] PHP Notice:  Undefined variable: sname in /home/masurwys/public_html/admin/view_scientist_info.php on line 123
+[20-Nov-2021 11:37:51 America/New_York] PHP Warning:  unlink(scientist_image/1633096444-1477-saidul.jpg): No such file or directory in /home/masurwys/public_html/admin/edit_scientist_info.php on line 42
+[20-Nov-2021 11:37:56 America/New_York] PHP Notice:  Undefined variable: sname in /home/masurwys/public_html/admin/view_scientist_info.php on line 123
+[20-Nov-2021 11:38:27 America/New_York] PHP Notice:  Undefined variable: sname in /home/masurwys/public_html/admin/view_scientist_info.php on line 123
+[20-Nov-2021 11:38:39 America/New_York] PHP Warning:  unlink(scientist_image/1633097808-6994-2021-03-18-14-29-2e616a38fa4454bd5d45dacd8aa8ad1e.jpg): No such file or directory in /home/masurwys/public_html/admin/edit_scientist_info.php on line 42
+[20-Nov-2021 11:38:46 America/New_York] PHP Notice:  Undefined variable: sname in /home/masurwys/public_html/admin/view_scientist_info.php on line 123
+[20-Nov-2021 11:38:57 America/New_York] PHP Warning:  unlink(scientist_image/1633096609-1994-Masud.jpg): No such file or directory in /home/masurwys/public_html/admin/edit_scientist_info.php on line 42
+[20-Nov-2021 11:39:05 America/New_York] PHP Notice:  Undefined variable: sname in /home/masurwys/public_html/admin/view_scientist_info.php on line 123
+[20-Nov-2021 11:39:15 America/New_York] PHP Warning:  unlink(scientist_image/1633098399-8957-citations.jpg): No such file or directory in /home/masurwys/public_html/admin/edit_scientist_info.php on line 42
+[20-Nov-2021 11:39:25 America/New_York] PHP Notice:  Undefined variable: sname in /home/masurwys/public_html/admin/view_scientist_info.php on line 123
+[20-Nov-2021 11:39:36 America/New_York] PHP Warning:  unlink(scientist_image/1633098036-8919-sadeq.png): No such file or directory in /home/masurwys/public_html/admin/edit_scientist_info.php on line 42
+[20-Nov-2021 11:40:06 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[20-Nov-2021 11:40:52 America/New_York] PHP Notice:  Undefined variable: sname in /home/masurwys/public_html/admin/view_scientist_info.php on line 123
+[20-Nov-2021 11:41:03 America/New_York] PHP Warning:  unlink(scientist_image/1633096903-6901-Pic-KNBabi.jpg): No such file or directory in /home/masurwys/public_html/admin/edit_scientist_info.php on line 42
+[20-Nov-2021 11:41:12 America/New_York] PHP Notice:  Undefined variable: sname in /home/masurwys/public_html/admin/view_scientist_info.php on line 123
+[20-Nov-2021 11:41:32 America/New_York] PHP Warning:  unlink(scientist_image/1633097019-8854-Profile-Pic-Farhad.jpg): No such file or directory in /home/masurwys/public_html/admin/edit_scientist_info.php on line 42
+[20-Nov-2021 11:41:44 America/New_York] PHP Notice:  Undefined variable: sname in /home/masurwys/public_html/admin/view_scientist_info.php on line 123
+[20-Nov-2021 11:41:57 America/New_York] PHP Warning:  unlink(scientist_image/1633098255-9307-Sakib.jpg): No such file or directory in /home/masurwys/public_html/admin/edit_scientist_info.php on line 42
+[20-Nov-2021 11:53:21 America/New_York] PHP Warning:  unlink(simulator_file/1633099156-5829-MSCS-1D-V2 maunual.pdf): No such file or directory in /home/masurwys/public_html/admin/edit_simulator.php on line 40
+[20-Nov-2021 23:24:19 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[20-Nov-2021 23:24:22 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[22-Nov-2021 05:05:15 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[22-Nov-2021 05:05:38 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[03-Dec-2021 07:33:46 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[03-Dec-2021 18:12:50 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[27-Dec-2021 23:36:23 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[09-Jan-2022 04:39:43 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[09-Jan-2022 04:41:36 America/New_York] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/masurwys/public_html/admin/add_publication_done.php on line 29
+[16-Jan-2022 03:45:19 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[06-Feb-2022 12:37:26 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[06-Feb-2022 12:37:29 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[06-Feb-2022 12:37:31 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[22-Mar-2022 14:52:38 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[17-May-2022 03:39:44 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[15-Jun-2022 06:00:01 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[02-Aug-2022 06:21:29 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[06-Aug-2022 11:22:54 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70
+[20-Aug-2022 21:31:19 America/New_York] PHP Notice:  Undefined index: admin_name in /home/masurwys/public_html/admin/header.php on line 70

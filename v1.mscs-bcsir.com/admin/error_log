@@ -1,0 +1,18 @@
+[23-Nov-2018 09:46:51 America/New_York] PHP Notice:  Undefined variable: conn in /home/chemadmin/public_html/Admin/admin.php on line 268
+[23-Nov-2018 09:46:51 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/chemadmin/public_html/Admin/admin.php on line 268
+[23-Nov-2018 09:46:51 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/chemadmin/public_html/Admin/admin.php on line 270
+[23-Nov-2018 09:46:51 America/New_York] PHP Notice:  Undefined variable: student in /home/chemadmin/public_html/Admin/admin.php on line 282
+[23-Nov-2018 09:46:51 America/New_York] PHP Notice:  Undefined variable: conn in /home/chemadmin/public_html/Admin/admin.php on line 295
+[23-Nov-2018 09:46:51 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/chemadmin/public_html/Admin/admin.php on line 295
+[23-Nov-2018 09:46:51 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/chemadmin/public_html/Admin/admin.php on line 297
+[23-Nov-2018 09:46:51 America/New_York] PHP Notice:  Undefined variable: student in /home/chemadmin/public_html/Admin/admin.php on line 313
+[23-Nov-2018 09:46:51 America/New_York] PHP Notice:  Undefined variable: conn in /home/chemadmin/public_html/Admin/admin.php on line 326
+[23-Nov-2018 09:46:51 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/chemadmin/public_html/Admin/admin.php on line 326
+[23-Nov-2018 09:46:51 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/chemadmin/public_html/Admin/admin.php on line 328
+[23-Nov-2018 09:46:51 America/New_York] PHP Notice:  Undefined variable: student in /home/chemadmin/public_html/Admin/admin.php on line 344
+[23-Nov-2018 09:46:51 America/New_York] PHP Notice:  Undefined variable: conn in /home/chemadmin/public_html/Admin/admin.php on line 357
+[23-Nov-2018 09:46:51 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/chemadmin/public_html/Admin/admin.php on line 357
+[23-Nov-2018 09:46:51 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/chemadmin/public_html/Admin/admin.php on line 359
+[23-Nov-2018 09:46:51 America/New_York] PHP Notice:  Undefined variable: conn in /home/chemadmin/public_html/Admin/admin.php on line 369
+[23-Nov-2018 09:46:51 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/chemadmin/public_html/Admin/admin.php on line 369
+[23-Nov-2018 09:46:51 America/New_York] PHP Notice:  Undefined variable: student in /home/chemadmin/public_html/Admin/admin.php on line 376

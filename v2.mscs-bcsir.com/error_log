@@ -1,0 +1,6 @@
+[18-Jun-2022 01:29:38 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'shohmnko_v2_mscs'@'localhost' (using password: YES) in /home/masurwys/v2.mscs-bcsir.com/connection.php on line 3
+[18-Jun-2022 01:29:38 America/New_York] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/masurwys/v2.mscs-bcsir.com/request_done.php on line 6
+[18-Jun-2022 01:29:38 America/New_York] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/masurwys/v2.mscs-bcsir.com/request_done.php on line 7
+[18-Jun-2022 01:29:38 America/New_York] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/masurwys/v2.mscs-bcsir.com/request_done.php on line 8
+[18-Jun-2022 01:29:39 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/masurwys/v2.mscs-bcsir.com/request_done.php on line 49
+[18-Jun-2022 01:29:39 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/masurwys/v2.mscs-bcsir.com/request_done.php on line 53

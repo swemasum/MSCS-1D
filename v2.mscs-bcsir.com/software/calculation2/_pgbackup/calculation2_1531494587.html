@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Blank Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!--junction 1-->
+            <div></div>
+            <div class="row">
+                <div class="col-md-2 col-sm-0 col-sx-0">
+                    <div class="row">
+                        <div class="col-md-12" style="border: 2px solid red">
+                            <p>result(Junction-1)</p>
+                            <div class="form-group"> 
+                                <label class="control-label" for="formInput39">Short circuit current density (Jsc1) 
+</label>
+                                <input type="text" class="form-control" id="formInput39" placeholder="Placeholder text">
+                            </div>
+                            <div class="form-group"> 
+                                <label class="control-label" for="formInput27">Open circuit voltage (Voc1) </label>
+                                <input type="text" disable class="form-control" id="formInput27" placeholder="Placeholder text">
+                            </div>                             
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-12 col-sx-12 span12" style="border: 2px solid #4286f4"> 
+                    <div class="row"> 
+                        <div class="col-md-6"> 
+                            <div class="form-group"> 
+                                <div class="form-group"> 
+                                    <label class="control-label" for="formInput146">Material</label>                                     
+                                    <select id="mySelect" onchange="myFunction()" class="form-control"> 
+                                        <option value="">Select one
+
+                                        <option value="GaInP2">GaInP2                                        
+
+                                        <option value="GaAs">GaAs                                       
+
+                                        <option value="ge">Ge                                    
+
+                                        <option value="GaAs.96Bi.04">GaAs.96Bi.04                                       
+
+                                        <option value="GaAs.95Bi.05">GaAs.95Bi.05                                       
+
+                                        <option value="GaAs.94Bi.058">GaAs.94Bi.058                                       
+
+                                        <option value="GaAs.915Bi.085">GaAs.915Bi.085                                       
+
+                                        <option value="GaAs.915Bi.085">GaAs.915Bi.085                                       
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-sx-12 ">
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">M
+                                <sub style="font-weight:bold;font-size:15px">c</sub>
+                            </label>
+                            <input type="n" class="form-control" id="mc" placeholder="Placeholder text">
+                        </div>
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">M
+                                <sub style="font-weight:bold;font-size:15px">v</sub>
+                            </label>
+                            <input type="text" class="form-control" id="mv" placeholder="Placeholder text">
+                        </div>
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">&mu;
+                                <sub style="font-weight:bold;font-size:15px">e</sub>
+                            </label>
+                            <input type="text" class="form-control" id="mue" placeholder="Placeholder text">
+                        </div>
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">&mu;
+                                <sub style="font-weight:bold;font-size:15px">n</sub>
+                            </label>
+                            <input type="text" class="form-control" id="muh" placeholder="Placeholder text">
+                        </div>                         
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">&lambda;
+                                <sub style="font-weight:bold;font-size:15px">(lambda)</sub>
+                            </label>
+                            <input type="text" class="form-control" id="lamda" placeholder="Placeholder text">
+                        </div>                         
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">Eg
+</label>
+                            <input type="text" class="form-control" id="eg" placeholder="Placeholder text">
+                        </div>                         
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-sx-12">
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">M
+                                <sub style="font-weight:bold;font-size:15px">e</sub>*/M
+                                <sub style="font-weight:bold;font-size:15px">e</sub>
+                            </label>
+                            <input type="text" class="form-control" id="me" placeholder="Placeholder text">
+                        </div>
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">M
+                                <sub style="font-weight:bold;font-size:15px">h</sub>*/M
+                                <sub style="font-weight:bold;font-size:15px">h</sub>
+                            </label>
+                            <input type="text" class="form-control" id="mh" placeholder="Placeholder text">
+                        </div>
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">SRH</label>
+                            <input type="text" class="form-control" id="srh" placeholder="Placeholder text">
+                        </div>
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">B</label>
+                            <input type="text" class="form-control" id="b" placeholder="Placeholder text">
+                        </div>                         
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">C(sun concentration)</label>
+                            <input type="number" class="form-control" id="C" placeholder="Placeholder text">
+                        </div>                         
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-sx-12">
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">N
+                                <sub style="font-weight:bold;font-size:15px">A</sub>
+                            </label>
+                            <input type="text" class="form-control" id="na" placeholder="Placeholder text">
+                        </div>
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">N
+                                <sub style="font-weight:bold;font-size:15px">D</sub>
+                            </label>
+                            <input type="text" class="form-control" id="nd" placeholder="Placeholder text">
+                        </div>
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">X
+                                <sub style="font-weight:bold;font-size:15px">n</sub>
+                            </label>
+                            <input type="text" class="form-control" id="xn" placeholder="Placeholder text">
+                        </div>
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">X
+                                <sub style="font-weight:bold;font-size:15px">p</sub>
+                            </label>
+                            <input type="text" class="form-control" id="xp" placeholder="Placeholder text">
+                        </div>                         
+                        <div class="form-group"> 
+                            <label class="control-label" for="formInput128">I( irradiance )
+</label>
+                            <input type="number" step="0.01" class="form-control" id="I" placeholder="Placeholder text">
+                        </div>                         
+                    </div>
+                    <button type="button" onclick="calculate_lay1()" class="btn btn-success">save</button>
+                </div>
+            </div>
+            <!--junction 1 end-->
+        </div>
+        <script>
+							function myFunction() {
+								var x = document.getElementById("mySelect").value;
+								console.log(x)
+								if(x=="GaInP2"){
+								
+								var mc=1;
+								var mv=3;
+								var mue=0.4;
+								var muh=0.02;
+								var me=0.155*9.1e-31;
+								var mh= 0.460*9.1e-31;
+								var srh= 1e-5;
+								var b=7.5e-16;
+								var na=1e23;
+								var nd=2e24;
+								var xn=208e-9;
+								var xp=100e-9;
+								var lamda=0.65428e-6;
+								var eg=1.9;
+								
+								document.getElementById("mc").value = mc;
+								document.getElementById("mv").value = mv;
+								document.getElementById("mue").value = mue;
+								document.getElementById("muh").value = muh;
+								document.getElementById("me").value = me;
+								document.getElementById("mh").value = mh;
+								document.getElementById("srh").value = srh;
+								document.getElementById("b").value = b;
+								document.getElementById("na").value = na;
+								document.getElementById("nd").value = nd;
+								document.getElementById("xn").value = xn;
+								document.getElementById("xp").value = xp;
+								document.getElementById("lamda").value = lamda;
+								document.getElementById("eg").value = eg;
+								}else if(x=="GaAs"){
+										
+								var mc=1;
+								var mv=1;
+								var mue=0.2322;
+								var muh=0.02;
+								var me=0.067*9.1e-31;
+								var mh= 0.473*9.1e-31;
+								var srh= 1e-5;
+								var b=7.5e-16;
+								var na=9e23;
+								var nd=7.8e23;
+								var xn=300e-9;
+								var xp=100e-9;
+								var lamda=0.875e-6;
+								var eg=1.42;
+								
+								document.getElementById("mc").value = mc;
+								document.getElementById("mv").value = mv;
+								document.getElementById("mue").value = mue;
+								document.getElementById("muh").value = muh;
+								document.getElementById("me").value = me;
+								document.getElementById("mh").value = mh;
+								document.getElementById("srh").value = srh;
+								document.getElementById("b").value = b;
+								document.getElementById("na").value = na;
+								document.getElementById("nd").value = nd;
+								document.getElementById("xn").value = xn;
+								document.getElementById("xp").value = xp;
+								document.getElementById("lamda").value = lamda;
+								document.getElementById("eg").value = eg;
+								}else if(x=="ge"){
+								var mc=1;
+								var mv=1;
+								var mue=0.39;
+								var muh=0.19;
+								var me=1.64*9.1e-31;
+								var mh= 0.28*9.1e-31;
+								var srh= 1e-5;
+								var b=7.5e-16;
+								var na=1e23;
+								var nd=2e24;
+								var xn=400e-9;
+								var xp=100e-9;
+								var lamda=1.775e-6;
+								var eg=0.67;
+								
+								document.getElementById("mc").value = mc;
+								document.getElementById("mv").value = mv;
+								document.getElementById("mue").value = mue;
+								document.getElementById("muh").value = muh;
+								document.getElementById("me").value = me;
+								document.getElementById("mh").value = mh;
+								document.getElementById("srh").value = srh;
+								document.getElementById("b").value = b;
+								document.getElementById("na").value = na;
+								document.getElementById("nd").value = nd;
+								document.getElementById("xn").value = xn;
+								document.getElementById("xp").value = xp;
+								document.getElementById("lamda").value = lamda;
+								document.getElementById("eg").value = eg;
+								}
+								
+							}
+					</script>
+        <script type="text/javascript"> 
+		               function calculate_lay1(){
+					   
+					 /*  var mc = document.getElementById("mc").value;
+								var mv = document.getElementById("mv").value;
+								var mc1=parseFloat(mc);
+								var mv1=parseFloat(mv);
+								var add=mc1+mc1;
+								console.log(add);
+								
+					   }*/
+		
+					    var mc = document.getElementById("mc").value;
+						var mv = document.getElementById("mv").value;
+						var mue = document.getElementById("mue").value;
+						var muh = document.getElementById("muh").value;
+						var me = document.getElementById("me").value;
+						var mh = document.getElementById("mh").value;
+						var srh = document.getElementById("srh").value;
+						var b = document.getElementById("b").value;
+						var na = document.getElementById("na").value;
+						var nd = document.getElementById("nd").value;
+						var xn = document.getElementById("xn").value;
+						var xp = document.getElementById("xp").value;
+						var lamda = document.getElementById("lamda").value;
+						var C= document.getElementById("C").value;
+						var i= document.getElementById("I").value;
+						var eg= document.getElementById("eg").value;
+						
+						console.log("i:"+i);
+								var mc1=parseFloat(mc);
+								var mv1=parseFloat(mv);
+								var mue1=parseFloat(mue);
+								var muh1=parseFloat(muh);
+							    var srh1=parseFloat(srh);
+								var me1=parseFloat(me);
+								var mh1=parseFloat(mh);
+							    var b1=parseFloat(b);
+							    var na1=parseFloat(na);
+							    var nd1=parseFloat(nd);
+							    var xn1=parseFloat(xn);
+							    var xp1=parseFloat(xp);
+							    var lamda1=parseFloat(lamda);
+								
+								//constant value start
+								var m=0.00000000000000000000000000000091;
+								var e=0.00000000000000000016;
+								var t=298;
+								var k=0.0000000000000000000000138;
+								var h=0.000000000000000000000000000000000663;
+								var c=300000000;
+								var pi=3.1416;
+							    
+								//constant value end
+						     		
+								//calculate jsc1
+							    var jsc1=(e*lamda1*i)/(h*c);
+							
+								//var jsc1=e*F;
+								console.log("jsc1::"+jsc1);
+								
+								//calculate jsc1 end
+								
+								//calculate voc1
+								var de=(k*t*mue1)/e;
+								var dh=(k*t*muh1)/e;
+								var taue=1/((1/srh1)+(b1*na1));
+								var tauh=1/((1/srh1)+(b1*nd1));
+								var se=Math.pow((de/taue),0.5);
+								var sh=Math.sqrt(dh/tauh);
+								var ni1=4*mc1*mv1*Math.pow((2*3.1416*k*t)/Math.pow(h,2),3)*Math.pow((me1*mh1),1.5)*Math.exp(-(eg)*e/(k*t));
+								var j0=(e*se*ni1/na1)+(e*sh*ni1/nd1);
+							    var voc1=k*t*Math.log((jsc1/j0)+1)/e;
+								
+								console.log("voc1:"+voc1);
+								//calculate voc1 end
+								
+								
+								//maximum voltage start
+								
+								//maximum voltage end
+							 
+                     }
+					 
+				
+		
+		</script>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+</html>
